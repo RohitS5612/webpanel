@@ -10,7 +10,7 @@ FROM trafex/php-nginx
 
 USER root
 
-RUN apk add --no-cache php83-sodium
+RUN apk add --no-cache php83-sodium php-sodium
 
 USER nobody
 
